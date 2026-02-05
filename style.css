@@ -1072,4 +1072,117 @@ footer{
   }
 
 }
+/* =====================================
+   RESPONSIVE FIX (MOBILE + TABLET)
+===================================== */
+
+/* ---------- TABLET ---------- */
+@media (max-width: 900px){
+
+  section{
+    padding:100px 20px;
+  }
+
+  /* Hero */
+
+  .hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    gap:40px;
+  }
+
+  .hero-name{
+    font-size:40px;
+  }
+
+  .hero-name span{
+    font-size:52px;
+  }
+
+  .hero-img img{
+    width:260px;
+  }
+
+  /* About + Contact */
+
+  .about-container,
+  .contact-container{
+    grid-template-columns:1fr;
+    gap:50px;
+  }
+
+  /* Form */
+
+  .lux-form{
+    grid-template-columns:1fr;
+  }
+
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 600px){
+
+  /* Navbar */
+
+  .neo-navbar{
+    padding:10px 16px;
+    gap:15px;
+  }
+
+  .neo-menu{
+    gap:14px;
+  }
+
+  .neo-link{
+    font-size:13px;
+  }
+
+  /* Headings */
+
+  h2{
+    font-size:26px;
+  }
+
+  /* Hero */
+
+  .hero-name{
+    font-size:32px;
+  }
+
+  .hero-name span{
+    font-size:44px;
+  }
+
+  .hero-about{
+    font-size:15px;
+  }
+
+  /* Image */
+
+  .hero-img img{
+    width:220px;
+  }
+
+  /* Projects */
+
+  .lux-projects-grid{
+    grid-template-columns:1fr;
+  }
+
+  /* Contact */
+
+  .contact-card{
+    padding:25px;
+  }
+
+  /* Footer */
+
+  .footer-container{
+    grid-template-columns:1fr;
+    gap:20px;
+    text-align:center;
+  }
+
+}
 
