@@ -1185,4 +1185,84 @@ footer{
   }
 
 }
+/* =====================================
+   HOME / HERO MOBILE FIX (IMPORTANT)
+===================================== */
+
+@media (max-width: 768px){
+
+  /* Hero Container */
+
+  .hero{
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    min-height:auto;
+
+    padding-top:140px;
+    padding-bottom:80px;
+  }
+
+  /* Text Area */
+
+  .hero-text{
+    width:100%;
+    max-width:100%;
+  }
+
+  /* Name */
+
+  .hero-name{
+    font-size:34px;
+    line-height:1.3;
+  }
+
+  .hero-name span{
+    font-size:46px;
+  }
+
+  /* About Text */
+
+  .hero-about{
+    max-width:100%;
+    font-size:15px;
+
+    margin:18px auto 25px;
+  }
+
+  /* Buttons */
+
+  .hero-btns{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+
+    align-items:center;
+  }
+
+  .hero-btns .btn{
+    width:85%;
+    max-width:260px;
+    text-align:center;
+  }
+
+  /* Image */
+
+  .hero-img{
+    width:100%;
+    margin-bottom:25px;
+
+    display:flex;
+    justify-content:center;
+  }
+
+  .hero-img img{
+    width:200px;
+    height:200px;
+  }
+
+}
 
