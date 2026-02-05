@@ -1265,4 +1265,104 @@ footer{
   }
 
 }
+/* =====================================
+   CLEAN MOBILE HERO FIX (FINAL)
+===================================== */
+
+@media (max-width: 600px){
+
+  /* Stop horizontal scroll */
+  body{
+    overflow-x:hidden;
+  }
+
+  /* Hero layout */
+
+  .hero{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding-top:130px;
+    padding-bottom:70px;
+
+    min-height:auto;
+  }
+
+  /* Text wrapper */
+
+  .hero-text{
+    width:100%;
+    max-width:100%;
+  }
+
+  /* Heading */
+
+  .hero-name{
+    font-size:30px;
+    line-height:1.25;
+  }
+
+  .hero-name span{
+    font-size:40px;
+  }
+
+  /* Paragraph */
+
+  .hero-about{
+    font-size:14px;
+    line-height:1.6;
+
+    max-width:100%;
+    margin:15px auto 22px;
+  }
+
+  /* Buttons */
+
+  .hero-btns{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+  }
+
+  .hero-btns .btn{
+    width:90%;
+    max-width:240px;
+    padding:12px 0;
+  }
+
+  /* Image */
+
+  .hero-img{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+  }
+
+  .hero-img img{
+    width:180px;
+    height:180px;
+  }
+
+  /* Navbar compact */
+
+  .neo-navbar{
+    padding:8px 14px;
+    gap:10px;
+  }
+
+  .neo-menu{
+    gap:12px;
+  }
+
+  .neo-link{
+    font-size:12px;
+  }
+
+}
+
 
